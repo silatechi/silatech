@@ -44,7 +44,7 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090f,50:30105e,100:09090f&height=3" width="100%" alt="Divider" />
 </div>
 
-<h2 align="center">⚡ ABOUT SILA TECH</h2>
+<h2 align="center">👨‍💻 About Me</h2>
 
 <div align="center">
 
@@ -84,7 +84,7 @@ My goal is to transform ideas into useful, reliable, and professional technology
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090f,50:30105e,100:09090f&height=3" width="100%" alt="Divider" />
 </div>
 
-<h2 align="center">📊 GITHUB STATISTICS</h2>
+<h2 align="center">📊 Github Stats</h2>
 
 <div align="center">
 
@@ -104,7 +104,7 @@ My goal is to transform ideas into useful, reliable, and professional technology
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090f,50:30105e,100:09090f&height=3" width="100%" alt="Divider" />
 </div>
 
-<h2 align="center">🌍 CONNECT WITH SILA TECH</h2>
+<h2 align="center">Connect With Sila Tech</h2>
 
 <div align="center">
 
