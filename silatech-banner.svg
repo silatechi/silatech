@@ -1,0 +1,91 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Sila Tech</title>
+  <desc id="desc">Original futuristic technology banner in black, purple, and cyan.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080914"/>
+      <stop offset="55%" stop-color="#17102e"/>
+      <stop offset="100%" stop-color="#061b28"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#21143d"/>
+      <stop offset="100%" stop-color="#0c2333"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9b8bff" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="380" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="24" fill="url(#grid)"/>
+
+  <g fill="none" stroke="url(#accent)" stroke-width="2" opacity=".6">
+    <path d="M0 70H120L150 100H245"/>
+    <path d="M0 300H105L135 270H220"/>
+    <path d="M790 45H910L940 75H1200"/>
+    <path d="M880 335H1010L1040 305H1200"/>
+    <path d="M55 0V42L80 67"/>
+    <path d="M1140 380V335L1115 310"/>
+  </g>
+
+  <g fill="#22d3ee">
+    <circle cx="120" cy="70" r="4"/>
+    <circle cx="245" cy="100" r="4"/>
+    <circle cx="105" cy="300" r="4"/>
+    <circle cx="910" cy="45" r="4"/>
+    <circle cx="1010" cy="335" r="4"/>
+  </g>
+
+  <g transform="translate(850 70)">
+    <circle cx="130" cy="120" r="110" fill="#7c3aed" opacity=".08"/>
+    <circle cx="130" cy="120" r="91" fill="none" stroke="#8b5cf6" stroke-opacity=".6" stroke-width="1.5" stroke-dasharray="5 8"/>
+    <circle cx="130" cy="120" r="76" fill="url(#panel)" stroke="url(#accent)" stroke-width="2" filter="url(#glow)"/>
+
+    <path d="M100 78H160Q175 78 175 94V137Q175 153 160 153H100Q85 153 85 137V94Q85 78 100 78Z"
+          fill="#0a1020" stroke="#22d3ee" stroke-width="2.5"/>
+    <path d="M111 78V66Q111 54 123 54H137Q149 54 149 66V78"
+          fill="none" stroke="#a855f7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M85 103H70V126H85M175 103H190V126H175"
+          fill="none" stroke="#a855f7" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="100" y="96" width="19" height="16" rx="5" fill="#22d3ee" filter="url(#glow)"/>
+    <rect x="141" y="96" width="19" height="16" rx="5" fill="#22d3ee" filter="url(#glow)"/>
+    <path d="M108 129Q130 145 152 129" fill="none" stroke="#a855f7" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="130" cy="174" r="4" fill="#22d3ee"/>
+    <path d="M102 190H158" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="112" font-size="17" font-weight="700" letter-spacing="5" fill="#22d3ee">WELCOME TO MY WORLD</text>
+
+    <text x="68" y="184" font-size="62" font-weight="900" letter-spacing="-2" fill="#ffffff">SILA TECH</text>
+
+    <rect x="72" y="203" width="290" height="4" rx="2" fill="url(#accent)"/>
+
+    <text x="72" y="242" font-size="20" font-weight="600" fill="#d8ccff">Technology • AI • Software</text>
+    <text x="72" y="273" font-size="15" fill="#aab7d0">Building ideas into digital solutions.</text>
+
+    <g transform="translate(72 306)" font-size="12" font-weight="700" letter-spacing="1.5">
+      <rect width="106" height="30" rx="15" fill="#8b5cf6" fill-opacity=".17" stroke="#8b5cf6" stroke-opacity=".8"/>
+      <text x="53" y="19" text-anchor="middle" fill="#d9c5ff">DEVELOPER</text>
+
+      <rect x="117" width="68" height="30" rx="15" fill="#22d3ee" fill-opacity=".10" stroke="#22d3ee" stroke-opacity=".8"/>
+      <text x="151" y="19" text-anchor="middle" fill="#8beafa">AI</text>
+
+      <rect x="196" width="124" height="30" rx="15" fill="#8b5cf6" fill-opacity=".17" stroke="#8b5cf6" stroke-opacity=".8"/>
+      <text x="258" y="19" text-anchor="middle" fill="#d9c5ff">INNOVATION</text>
+    </g>
+  </g>
+</svg>
