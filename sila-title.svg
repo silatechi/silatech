@@ -1,0 +1,65 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#151027"/>
+      <stop offset="100%" stop-color="#080b16"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c084fc">
+        <animate attributeName="stop-color" values="#c084fc;#22d3ee;#c084fc" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#22d3ee">
+        <animate attributeName="stop-color" values="#22d3ee;#c084fc;#22d3ee" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#a78bfa" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+
+  <rect x="8" y="8" width="884" height="214" rx="24" fill="url(#background)" stroke="url(#border)" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="1;.55;1" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="10" y="10" width="880" height="210" rx="22" fill="url(#grid)"/>
+
+  <circle cx="90" cy="65" r="45" fill="#9333ea" opacity=".10">
+    <animate attributeName="r" values="35;55;35" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="810" cy="165" r="55" fill="#06b6d4" opacity=".10">
+    <animate attributeName="r" values="45;65;45" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <path d="M65 42H180M720 188H835" stroke="url(#border)" stroke-width="2" opacity=".8"/>
+
+  <text x="450" y="118" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="65" font-weight="900" letter-spacing="5"
+        fill="url(#text)" filter="url(#glow)">SILA TECH
+    <animate attributeName="opacity" values="1;.78;1" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="450" y="157" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="17" letter-spacing="4" fill="#c4b5fd">
+    TECHNOLOGY • AI • INNOVATION
+  </text>
+
+  <rect x="280" y="181" width="340" height="3" rx="2" fill="url(#border)">
+    <animate attributeName="width" values="180;340;180" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="360;280;360" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>
