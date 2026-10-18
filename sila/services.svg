@@ -1,0 +1,207 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="790" viewBox="0 0 1000 790" role="img" aria-labelledby="title desc">
+  <title id="title">SILA TECH — What I Do</title>
+  <desc id="desc">Six technology service cards covering web development, mobile applications, artificial intelligence, APIs and automation, WhatsApp bots, and cybersecurity.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08080e"/>
+      <stop offset="52%" stop-color="#171029"/>
+      <stop offset="100%" stop-color="#090e19"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+      <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="web" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity=".02"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity=".02"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#8b5cf6" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .heading{font-family:Arial,Helvetica,sans-serif;font-weight:800;fill:#fff}
+      .category{font-family:Arial,Helvetica,sans-serif;font-size:19px;font-weight:700;fill:#fff}
+      .description{font-family:Arial,Helvetica,sans-serif;font-size:14px;fill:#b8b6d0}
+      .number{font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;fill:#22d3ee}
+      .card{fill:#11111e;stroke:#4d3b75;stroke-opacity:.8;stroke-width:1.2}
+      .iconLine{fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+
+  <rect width="1000" height="790" rx="26" fill="url(#background)"/>
+  <rect width="1000" height="790" rx="26" fill="url(#grid)"/>
+  <rect x="2" y="2" width="996" height="786" rx="24" fill="none" stroke="url(#edge)" stroke-width="2"/>
+
+  <circle cx="915" cy="85" r="100" fill="#a855f7" opacity=".06">
+    <animate attributeName="r" values="85;110;85" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="65" cy="715" r="110" fill="#22d3ee" opacity=".04"/>
+
+  <g text-anchor="middle">
+    <text x="500" y="53" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#22d3ee">EXPLORE MY EXPERTISE</text>
+    <text x="500" y="100" class="heading" font-size="38">WHAT I DO</text>
+    <rect x="420" y="116" width="160" height="3" rx="2" fill="url(#edge)"/>
+    <text x="500" y="145" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#a8a6c3">Technology-driven solutions for a connected world</text>
+  </g>
+
+  <!-- CARD 1: WEB DEVELOPMENT -->
+  <g>
+    <rect x="30" y="175" width="455" height="175" rx="18" class="card"/>
+    <rect x="30" y="175" width="455" height="175" rx="18" fill="url(#web)"/>
+    <rect x="30" y="175" width="4" height="175" rx="2" fill="#a855f7"/>
+    <text x="455" y="201" text-anchor="end" class="number">01 / WEB</text>
+
+    <circle cx="85" cy="235" r="31" fill="#8b5cf6" opacity=".12"/>
+    <g transform="translate(65 215)" stroke="#c084fc" class="iconLine">
+      <rect x="0" y="0" width="40" height="31" rx="5"/>
+      <path d="M0 8H40M8 4H9M14 4H15M20 4H21M12 17L7 21L12 25M28 17L33 21L28 25M23 16L17 26"/>
+    </g>
+
+    <text x="132" y="235" class="category">Web Development</text>
+    <text x="132" y="263" class="description">
+      <tspan x="132" dy="0">Building modern, responsive, and</tspan>
+      <tspan x="132" dy="21">professional websites with a focus on</tspan>
+      <tspan x="132" dy="21">design, performance, and user experience.</tspan>
+    </text>
+    <rect x="65" y="316" width="170" height="21" rx="10" fill="#211934" stroke="#8b5cf6" stroke-opacity=".4"/>
+    <text x="150" y="330" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#c4b5fd">DESIGN • DEVELOPMENT</text>
+  </g>
+
+  <!-- CARD 2: MOBILE APPLICATIONS -->
+  <g>
+    <rect x="515" y="175" width="455" height="175" rx="18" class="card"/>
+    <rect x="515" y="175" width="455" height="175" rx="18" fill="url(#cyan)"/>
+    <rect x="515" y="175" width="4" height="175" rx="2" fill="#22d3ee"/>
+    <text x="940" y="201" text-anchor="end" class="number">02 / MOBILE</text>
+
+    <circle cx="570" cy="235" r="31" fill="#22d3ee" opacity=".12"/>
+    <g transform="translate(555 212)" stroke="#22d3ee" class="iconLine">
+      <rect x="0" y="0" width="30" height="47" rx="6"/>
+      <path d="M9 6H21M12 40H18"/>
+      <circle cx="15" cy="34" r="1" fill="#22d3ee"/>
+    </g>
+
+    <text x="617" y="235" class="category">Mobile Applications</text>
+    <text x="617" y="263" class="description">
+      <tspan x="617" dy="0">Exploring Android and cross-platform</tspan>
+      <tspan x="617" dy="21">application development to bring digital</tspan>
+      <tspan x="617" dy="21">ideas to mobile devices.</tspan>
+    </text>
+    <rect x="550" y="316" width="175" height="21" rx="10" fill="#10252f" stroke="#22d3ee" stroke-opacity=".4"/>
+    <text x="637" y="330" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#67e8f9">ANDROID • CROSS-PLATFORM</text>
+  </g>
+
+  <!-- CARD 3: ARTIFICIAL INTELLIGENCE -->
+  <g>
+    <rect x="30" y="370" width="455" height="175" rx="18" class="card"/>
+    <rect x="30" y="370" width="455" height="175" rx="18" fill="url(#cyan)"/>
+    <rect x="30" y="370" width="4" height="175" rx="2" fill="#22d3ee"/>
+    <text x="455" y="396" text-anchor="end" class="number">03 / AI</text>
+
+    <circle cx="85" cy="430" r="31" fill="#22d3ee" opacity=".12"/>
+    <g transform="translate(64 408)" stroke="#67e8f9" class="iconLine">
+      <path d="M21 3C12 3 8 9 8 16V22H34V16C34 9 30 3 21 3Z"/>
+      <path d="M8 14H2V21H8M34 14H40V21H34M14 22V29H28V22"/>
+      <circle cx="16" cy="13" r="2" fill="#67e8f9"/>
+      <circle cx="26" cy="13" r="2" fill="#67e8f9"/>
+      <path d="M17 19H25M21 3V0"/>
+    </g>
+
+    <text x="132" y="430" class="category">Artificial Intelligence</text>
+    <text x="132" y="458" class="description">
+      <tspan x="132" dy="0">Creating AI-powered assistants,</tspan>
+      <tspan x="132" dy="21">conversational systems, and intelligent</tspan>
+      <tspan x="132" dy="21">tools for everyday tasks.</tspan>
+    </text>
+    <rect x="65" y="511" width="170" height="21" rx="10" fill="#10252f" stroke="#22d3ee" stroke-opacity=".4"/>
+    <text x="150" y="525" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#67e8f9">AI • INTELLIGENT SYSTEMS</text>
+  </g>
+
+  <!-- CARD 4: APIS AND AUTOMATION -->
+  <g>
+    <rect x="515" y="370" width="455" height="175" rx="18" class="card"/>
+    <rect x="515" y="370" width="455" height="175" rx="18" fill="url(#web)"/>
+    <rect x="515" y="370" width="4" height="175" rx="2" fill="#a855f7"/>
+    <text x="940" y="396" text-anchor="end" class="number">04 / APIs</text>
+
+    <circle cx="570" cy="430" r="31" fill="#a855f7" opacity=".12"/>
+    <g transform="translate(548 410)" stroke="#c084fc" class="iconLine">
+      <circle cx="22" cy="5" r="5"/>
+      <circle cx="7" cy="31" r="5"/>
+      <circle cx="37" cy="31" r="5"/>
+      <path d="M19 10L10 26M25 10L34 26M12 31H32"/>
+      <circle cx="22" cy="20" r="5"/>
+      <path d="M22 10V15M17 20H12M27 20H32"/>
+    </g>
+
+    <text x="617" y="430" class="category">APIs &amp; Automation</text>
+    <text x="617" y="458" class="description">
+      <tspan x="617" dy="0">Developing APIs, integrations, automation</tspan>
+      <tspan x="617" dy="21">tools, and services that connect different</tspan>
+      <tspan x="617" dy="21">technologies.</tspan>
+    </text>
+    <rect x="550" y="511" width="170" height="21" rx="10" fill="#211934" stroke="#8b5cf6" stroke-opacity=".4"/>
+    <text x="635" y="525" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#c4b5fd">INTEGRATION • WORKFLOWS</text>
+  </g>
+
+  <!-- CARD 5: WHATSAPP BOTS -->
+  <g>
+    <rect x="30" y="565" width="455" height="175" rx="18" class="card"/>
+    <rect x="30" y="565" width="455" height="175" rx="18" fill="url(#cyan)"/>
+    <rect x="30" y="565" width="4" height="175" rx="2" fill="#34d399"/>
+    <text x="455" y="591" text-anchor="end" class="number">05 / BOTS</text>
+
+    <circle cx="85" cy="625" r="31" fill="#25d366" opacity=".12"/>
+    <g transform="translate(63 604)" stroke="#4ade80" class="iconLine">
+      <path d="M7 32L2 39L14 36Q21 39 29 34Q39 28 37 18Q35 6 22 5Q10 5 5 15Q1 24 7 32Z"/>
+      <path d="M14 15Q12 13 11 16Q10 20 16 25Q21 30 26 27Q29 25 26 23L22 21L19 24Q15 22 14 19L16 17Z"/>
+    </g>
+
+    <text x="132" y="625" class="category">WhatsApp Bots</text>
+    <text x="132" y="653" class="description">
+      <tspan x="132" dy="0">Building WhatsApp bots and business</tspan>
+      <tspan x="132" dy="21">automation solutions to improve</tspan>
+      <tspan x="132" dy="21">communication and productivity.</tspan>
+    </text>
+    <rect x="65" y="706" width="170" height="21" rx="10" fill="#102c23" stroke="#34d399" stroke-opacity=".4"/>
+    <text x="150" y="720" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#6ee7b7">BOTS • BUSINESS AUTOMATION</text>
+  </g>
+
+  <!-- CARD 6: CYBERSECURITY AND IT -->
+  <g>
+    <rect x="515" y="565" width="455" height="175" rx="18" class="card"/>
+    <rect x="515" y="565" width="455" height="175" rx="18" fill="url(#web)"/>
+    <rect x="515" y="565" width="4" height="175" rx="2" fill="#f472b6"/>
+    <text x="940" y="591" text-anchor="end" class="number">06 / SECURITY</text>
+
+    <circle cx="570" cy="625" r="31" fill="#f472b6" opacity=".12"/>
+    <g transform="translate(549 602)" stroke="#f9a8d4" class="iconLine">
+      <path d="M21 2L39 9V21Q37 34 21 42Q5 34 3 21V9Z"/>
+      <rect x="13" y="18" width="16" height="12" rx="3"/>
+      <path d="M17 18V14Q17 9 21 9Q25 9 25 14V18M21 22V26"/>
+    </g>
+
+    <text x="617" y="625" class="category">Cybersecurity &amp; IT</text>
+    <text x="617" y="653" class="description">
+      <tspan x="617" dy="0">Learning about cybersecurity, system</tspan>
+      <tspan x="617" dy="21">administration, networking, and responsible</tspan>
+      <tspan x="617" dy="21">security testing.</tspan>
+    </text>
+    <rect x="550" y="706" width="190" height="21" rx="10" fill="#2b172b" stroke="#f472b6" stroke-opacity=".4"/>
+    <text x="645" y="720" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#f9a8d4">SECURITY • NETWORKING</text>
+  </g>
+
+  <text x="500" y="772" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#a8a6c3">SILA TECH • BUILDING THE FUTURE THROUGH TECHNOLOGY</text>
+</svg>
